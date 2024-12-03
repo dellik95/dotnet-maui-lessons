@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HangMann.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Grid RowDefinitions=".6*, .4*">
+        <VerticalStackLayout Spacing="15">
+            <Label
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                Text="{Binding Attempts}" />
+            <Image HeightRequest="200" Source="{Binding ImgSource}" />
+            <Label
+                FontSize="40"
+                HorizontalOptions="Center"
+                Text="{Binding SpotLigth}"
+                VerticalOptions="Center" />
+            <Label
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                Text="{Binding Message}" />
+            <Button
+                Clicked="Reset_Clicked"
+                HorizontalOptions="Center"
+                Text="Reset"
+                WidthRequest="100" />
+        </VerticalStackLayout>
+        <FlexLayout
+            x:Name="Conatiner"
+            Grid.Row="1"
+            BindableLayout.ItemsSource="{Binding Alphabet}"
+            JustifyContent="SpaceEvenly"
+            Wrap="Wrap">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <Button
+                        Clicked="Button_Clicked"
+                        CommandParameter=""
+                        HeightRequest="50"
+                        Text="{Binding .}"
+                        WidthRequest="50" />
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </FlexLayout>
+    </Grid>
+
+</ContentPage>

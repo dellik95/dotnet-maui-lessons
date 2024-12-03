@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Syncfusion.Maui.Core</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar1.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar10.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar11.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar12.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar13.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar14.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar15.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar16.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar17.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar18.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar19.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar2.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar20.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar21.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar22.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar23.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar24.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar25.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar26.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar27.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar28.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar29.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar3.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar30.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar4.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar5.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar6.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar7.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar8.png" />
+    <None Remove="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar9.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar1.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar1.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar10.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar10.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar11.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar11.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar12.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar12.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar13.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar13.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar14.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar14.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar15.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar15.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar16.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar16.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar17.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar17.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar18.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar18.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar19.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar19.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar2.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar2.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar20.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar20.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar21.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar21.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar22.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar22.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar23.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar23.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar24.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar24.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar25.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar25.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar26.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar26.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar27.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar27.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar28.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar28.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar29.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar29.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar3.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar3.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar30.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar30.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar4.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar4.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar5.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar5.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar6.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar6.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar7.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar7.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar8.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar8.png" />
+    <EmbeddedResource Include="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar9.png" LogicalName="Syncfusion.Maui.Core.AvatarView.VectorImages.Avatar9.png" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Graphics" Version="6.0.501" />
+		<PackageReference Include="Microsoft.Maui.Graphics.Win2D.WinUI.Desktop" Version="6.0.501" />
+	</ItemGroup>
+</Project>

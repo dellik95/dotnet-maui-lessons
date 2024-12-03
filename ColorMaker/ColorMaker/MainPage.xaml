@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ColorMaker.ViewModels"
+             x:Class="ColorMaker.MainPage">
+    <ContentPage.BindingContext>
+        <local:CounterViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <BoxView
+                WidthRequest="200"
+                HeightRequest="200"
+                Color="{Binding BgColor}"/>
+            <Frame>
+                <StackLayout>
+                    <StackLayout Spacing="10" Margin="0, 0, 0, 10">
+                        <Label Text="Red Chanel" FontSize="20" TextColor="Red" WidthRequest="20%"/>
+                        <Slider
+                            Minimum="0"
+                            Maximum="255"
+                            Value="{Binding RedChanel}"/>
+                        <Label HorizontalTextAlignment="Center" Text="{Binding RedChanel}" FontSize="15"/>
+                    </StackLayout>
+
+                    <StackLayout  Spacing="10" Margin="0, 0, 0, 10" >
+                        <Label Text="Green Chanel" FontSize="20" TextColor="Green"/>
+                        <Slider Minimum="0"
+                                Maximum="255"
+                                Value="{Binding GreenChanel}"/>
+                        <Label HorizontalTextAlignment="Center" Text="{Binding GreenChanel}" FontSize="15"/>
+                    </StackLayout>
+
+                    <StackLayout  Spacing="10">
+                        <Label Text="Blue Chanel" FontSize="20" TextColor="Blue"/>
+                        <Slider Minimum="0"
+                                Maximum="255"
+                                Value="{Binding BlueChanel}"/>
+                        <Label HorizontalTextAlignment="Center" Text="{Binding BlueChanel}" FontSize="15"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

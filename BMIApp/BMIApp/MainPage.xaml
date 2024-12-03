@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="BMIApp.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <ScrollView.Background>
+            <LinearGradientBrush EndPoint="0,1">
+                <GradientStopCollection>
+                    <GradientStop Offset="0.0" Color="#572375" />
+                    <GradientStop Offset="1" Color="#a594f9" />
+                </GradientStopCollection>
+            </LinearGradientBrush>
+        </ScrollView.Background>
+        <VerticalStackLayout
+            Margin="30"
+            Spacing="25"
+            VerticalOptions="Center">
+
+            <!--#region Height-->
+            <Frame>
+                <VerticalStackLayout>
+                    <Label
+                        FontSize="Large"
+                        HorizontalOptions="Center"
+                        Text="Hight (sm)"
+                        TextColor="Gray" />
+                </VerticalStackLayout>
+            </Frame>
+            <!--#endregion-->
+
+            <!--#region Weight-->
+
+            <!--#endregion-->
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
